@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ashishsanu.qrcodescanandstore1.SecondActivity">
+
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Data of the Scannned QR : "
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Result"
+            android:textSize="15dp"
+            android:layout_marginLeft="20dp"
+
+            android:id="@+id/result_txt"
+            />
+        <Button
+            android:id="@+id/add_btn"
+            android:layout_marginLeft="250dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Save Data"
+            />
+        <Button
+            android:id="@+id/discard_btn"
+            android:layout_marginLeft="250dp"
+            android:layout_marginTop="50dp"
+            android:text="Discard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            />
+
+
+
+</RelativeLayout>
